@@ -96,12 +96,16 @@ def changing_alan
   # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
   # return the entire updated hash
 
+def changing_alan
+  # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+  # return the entire updated hash
+
 	programmer_hash = 
  		{
       :grace_hopper => {
         :known_for => "COBOL",
         :languages => ["COBOL", "FORTRAN"]
-      },
+      }, 
       :alan_kay => {
         :known_for => "Object Orientation",
         :languages => ["Smalltalk", "LISP"]
@@ -111,7 +115,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-
+programmer_hash[:alan_kay][:known_for] = "GUI"
 end
 
 def adding_to_dennis
