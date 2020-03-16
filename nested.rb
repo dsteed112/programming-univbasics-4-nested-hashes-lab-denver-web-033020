@@ -70,7 +70,6 @@ def adding_matz
 # }
 # return the entire updated hash
 
-	def adding_matz
 programmer_hash = 
  		{
       :grace_hopper => {
